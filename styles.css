@@ -1,0 +1,176 @@
+body {
+  align-items: center;
+  background-color: black;
+  color: seashell;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  justify-content: center;
+  width: 100%;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  display: inline-block;
+  height: 69px;
+  width: 100%;
+}
+
+#logo {
+  height: 50px;
+  margin: 10px;
+}
+
+ul {
+  display: inline;
+  float: right;
+  margin: 0px 20px 0px 0px;
+}
+
+li {
+  float: right;
+  list-style: none;
+  margin: 15px 10px 10px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+  width: 100%;
+}
+
+#mission {
+  align-content: center;
+  background-image: url(./resources/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 1000px;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 1200px;
+}
+
+#missionText {
+  background-color: black;
+  height: 150px;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
+  vertical-align: center;
+  width: 1200px;
+}
+
+#featuredTea {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 1200px;
+}
+
+#teaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  width: 1200px;
+}
+
+.teaCard {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+}
+
+.teaImage {
+  height: 200px;
+  margin: 10px;
+  width: 300px;
+}
+
+.teaTitle {
+  margin: 10px;
+}
+
+#locations {
+  align-items: center;
+  background-image: url(./resources/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+  justify-content: center;
+  margin-bottom: 70px;
+  width: 1200px;
+}
+
+.locationContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.locationCard {
+  background-color: black;
+  height: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+  text-align: center;
+  width: 310px;
+}
+
+.locationText {
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px;
+}
+
+#contact {
+  height: 200px;
+}
+
+h5 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+}
+
+.footerText {
+  margin: 20px;
+}
+
+.hazeOverlay {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.9;
+  width: 100%;
+  z-index: 1;
+}
